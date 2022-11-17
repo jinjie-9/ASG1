@@ -9,9 +9,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="Images/Logo 2.jpg" type="Images">
     <script src="https://kit.fontawesome.com/61a6ca8d1a.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function swapImage()
+        {
+            var image = document.getElementById("imageToSwap");
+            var dropd = document.getElementById("dlist");
+            image.src = dropd.value;
+        };
+    </script>
+
+    <script type="text/javascript">
+    function swapImage2()
+    {
+        var image = document.getElementById("imageToSwap2");
+        var dropd = document.getElementById("dlist2");
+        image.src = dropd.value;	
+    };
+    </script>
+
+   
+    
+</head>
 <body>
     <!--Navigation Bar-->
-    <a id="top"></a>
     <div class="navbar">
         <div id="logo"><a href="index.html"><img src="Images/Logo 2.jpg" alt="JJ Logo"></a></div>
         <ul >
@@ -21,9 +41,9 @@
                     
                 <div class="dropdown_box">
                     <ul>
-                        <li><a id = "#primaryschool"  href="Education.html#primaryschool">Primary</a></li>
-                        <li><a id = "#secondaryschool" href="Education.html#secondaryschool">Secondary</a></li>
-                        <li><a id = "#poly" href="Education.html#poly">Tertiary</a></li>
+                        <li><a id = "#primaryschool"  href="Education.html">Primary</a></li>
+                        <li><a id = "#secondaryschool" href="Education.html">Secondary</a></li>
+                        <li><a id = "#poly" href="Education.html">Tertiary</a></li>
                     </ul>
                 </div>
             </li>
@@ -51,83 +71,59 @@
         </ul>
     </div>
     <!--End of Navigation Bar-->
-    
     <!--Main Body-->
-    <!--Main Body Head-->
-    <a name="top"></a>
-    <div class="homepage-main-container">
+    <div class="education-main-container">
         <div class="main">
-            <div class="body-1">
-                <img src="Images/99FF1F40-BBD1-46D8-B773-FAFE6EA13320.jpg">
-                <h1>About Me</h1>
-                <br><br>
-                <h2>Name : </h2><p>Li Jin Jie</p>
-                <br><br><br><br><br>
-                <h2>School:</h2><p>Ngee Ann Polytechnic</p>
-                <br><br><br><br><br>
-                <h2>Course:</h2><p>Information Technology</p>
-            </div>
-            <div class="body-2">
-                <div class="row">
-                    <div class="column">
-                        <a href="Education.html">
-                            <div class="card">
-                                <img src="Images/jess-bailey-HyoRyMAVpNA-unsplash.jpg" alt="Education" style="width:100%">
-                                <div class="container">
-                                    <h1>Education</h1>
-                                    <input type="submit" value="Find Out More  >>>" id="card-btn">
-                                </div>
-                            </div>  
-                        </a>  
-                    </div>    
-                    <div class="column">
-                        <a href="CCA.html">
-                            <div class="card" >
-                                <img src="Images/mari-carmen-del-valle-camara-oUts1FvnwPI-unsplash.jpg" alt="CCA" style="width:100%">
-                                <div class="container">
-                                    <h1>CCA</h1>
-                                    <input type="submit" value="Find Out More  >>>" id="card-btn">
-                                </div>
-                            </div>
-                        </a>
-                    </div><br> 
-                    <div class="column">
-                        <a href="Hobby.html">
-                            <div class="card">
-                                <img src="Images/tomasz-sroka-CewT9iFBcgE-unsplash.jpg" alt="Hobby" style="width:100%">
-                                <div class="container">
-                                    <h1>Hobby</h1>
-                                    <input type="submit" value="Find Out More  >>>" id="card-btn">
-                                </div>
-                            </div>
-                        </a>    
-                    </div>    
-                    <div class="column">
-                        <a href="Contact.html">
-                        <div class="card">
-                            <img src="Images/kelly-sikkema--1_RZL8BGBM-unsplash.jpg" alt="Feedback" style="width:100%">
-                            <div class="container">
-                                <h1>Feedback</h1>
-                                <input type="submit" value="Find Out More  >>>" id="card-btn"> 
-                            </div>
-                        </a>
-                        </div>
-                    </div>
+            <div class="body-3">
+                <div id="poly">
+                    <select id="dlist" onChange="swapImage()">
+                        <option value="Images/IMG_6586.jpeg">Poly Foundation Programme   2021</option>
+                        <option value="Images/Screenshot (3).png">DSTA Brainhack Programme 2022 </option>
+                    <select id="dlist" onChange="swapImage()"></select>
+                    <a href="https://www.np.edu.sg/" target="_blank"><img src="Images/logo.png" alt="Ngee Ann Poly Logo"></a>
+                    <h1>( 2021 - Now )</h1>
+                    <img id="imageToSwap" src="Images/IMG_6586.jpeg"> 
+                    <p>*Hover over the picture for landscape picture to have a clearer view </p>
+                    <hr> 
                 </div>
-            </div>
-            
+                <div id="secondaryschool">
+                    <select id="dlist2" onChange="swapImage2()">
+                        <option value="Images/IMG_6535.jpeg">2018</option>
+                        <option value="Images/IMG_6589.jpeg">2020</option>
+                    <select id="dlist2" onChange="swapImage()"></select>
+                    <a href="https://woodgrovesec.moe.edu.sg/" target="_blank"><img src="Images/WGS.jpg" alt="Woodgrove Secondary Logo"></a>
+                    <h1>(  2017 -  2020 )</h1>
+                    <img id="imageToSwap2" src="Images/IMG_6535.jpeg"> 
+                    <p>*Hover over the picture for landscape picture to have a clearer view </p>
+                    <hr>
+                </div>
+                <div id="primaryschool">
+                    <select id="dlist2" onChange="swapImage2()">
+                        <option value="Images/IMG_6535.jpeg">2016</option>
+                    <select id="dlist2" onChange="swapImage()"></select>
+                    <a href="https://qihuapri.moe.edu.sg/" target="_blank"><img src="Images/download.png" alt="Woodgrove Secondary Logo"></a>
+                    <h1>(  2014 -  2016 )</h1>
+                    <img id="imageToSwap2" src="Images/IMG_6536.jpeg"> 
+                    <p>*Hover over the picture for landscape picture to have a clearer view </p>
+                </div>
+            </div> 
         </div>
     </div>
+    
+        
     <div class="dir-container">
         <button class="dir-next-btn">
-            <a href="Education.html">Next page <i class="fa fa-angle-double-right"></i></a>
+            <a href="CCA.html">Next page <i class="fa fa-angle-double-right"></i></a>
+        </button>
+        <button class="dir-back-btn">
+            <a href="index.html"> <i class="fa fa-angle-double-left"></i>Previous page </a>
         </button>
         <button class="dir-top-btn">
             <a href="#top"><i class="fa fa-angle-double-up"></i></a>
         </button>
     </div>
+</div>
     <!--End of Main Body-->
-
     <!--Footer-->
     <div class="footer-container">
         <div class="footer">
@@ -151,17 +147,18 @@
                 <h3>Contact Us</h3>
                 <a><i class="fas fa-map-marker-alt"></i>    535 Clementi Road, Singapore 599489</a>
                 <a><i class="fas fa-phone"></i> +65 92305621</a>
-                <a><i class="fas fa-envelope"></i> s10220867@connect.np.edu.sg</a> 
+                <a><i class="fas fa-envelope"></i> s10220867@connect.np.edu.sg</a>
             </div>    
             <div class="footer-email-form">
                 <h3>Sign Up</h3>
                 <input type="email" placeholder="Enter your email">
                 <br>
-                <input type="submit" value="Sign Up" id="footer-email-btn">   
-            </div>       
+                <input type="submit" value="Sign Up" id="footer-email-btn">
+            </div>
         </div>
     </div>    
-    <!--End of footer-->
+    
     
 </body>
 </html>
+
