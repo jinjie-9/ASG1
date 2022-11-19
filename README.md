@@ -54,24 +54,24 @@ Things to include:
 
 Mobile WireFrame:
 
-![Alt text](../../../../../../Downloads/Homepage%20%E2%80%93%201.jpg)
+![Alt text](Images/Homepage%20%E2%80%93%201.jpg)
 
-![Alt text](../../../../../../Downloads/Education.jpg)
+![Alt text](Images/Education.jpg)
 
-![Alt text](../../../../../../Downloads/CCA.jpg)
+![Alt text](Images/CCA.jpg)
 
-![Alt text](../../../../../../Downloads/Hobbies%20%E2%80%93%201.jpg)
+![Alt text](Images/Hobbies%20%E2%80%93%201.jpg)
 
-![Alt text](../../../../../../Downloads/Contact%20Me.jpg)
+![Alt text](Images/Contact%20Me.jpg)
 
 Laptop WireFrame:
 
-![Alt text (../../../../../../Downloads/Homepage.jpg)](../../../../../../Downloads/Homepage.jpg)
+![Alt text ](Images/Homepage.jpg)
 
-![Alt text](../../../../../../Downloads/Education.jpg)
+![Alt text](Images/Education.jpg)
 
-![Alt text](../../../../../../Downloads/CCA.jpg)
+![Alt text](Images/CCA.jpg)
 
-![Alt text](../../../../../../Downloads/Hobbies%20%E2%80%93%201.jpg)
+![Alt text](Images/Hobbies%20%E2%80%93%201.jpg)
 
-![Alt text](../../../../../../Downloads/Contact%20Me.jpg)
+![Alt text](Images/Contact%20Me.jpg)
