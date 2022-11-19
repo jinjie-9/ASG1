@@ -66,7 +66,7 @@ Mobile WireFrame:
 
 Laptop WireFrame:
 
-![Alt text](../../../../../../Downloads/Homepage.jpg)
+![Alt text (../../../../../../Downloads/Homepage.jpg)](../../../../../../Downloads/Homepage.jpg)
 
 ![Alt text](../../../../../../Downloads/Education.jpg)
 
