@@ -54,24 +54,24 @@ Things to include:
 
 Mobile WireFrame:
 
-![Alt text](Images/Homepage%20%E2%80%93%201.jpg)
+![Homepage](Images/Homepage%20%E2%80%93%201.jpg)
 
-![Alt text](Images/Education.jpg)
+![Education](Images/Education.jpg)
 
-![Alt text](Images/CCA.jpg)
+![CCA](Images/CCA.jpg)
 
-![Alt text](Images/Hobbies%20%E2%80%93%201.jpg)
+![Hobby](Images/Hobbies%20%E2%80%93%201.jpg)
 
-![Alt text](Images/Contact%20Me.jpg)
+![Contact Me](Images/Contact%20Me.jpg)
 
 Laptop WireFrame:
 
-![Alt text ](Images/Homepage.jpg)
+![Homepage](Images/Homepage.jpg)
 
-![Alt text](Images/Education.jpg)
+![Education](Images/Education.jpg)
 
-![Alt text](Images/CCA.jpg)
+![CCA](Images/CCA.jpg)
 
-![Alt text](Images/Hobbies%20%E2%80%93%201.jpg)
+![Hobby](Images/Hobbies%20%E2%80%93%201.jpg)
 
-![Alt text](Images/Contact%20Me.jpg)
+![Contact Me](Images/Contact%20Me.jpg)
