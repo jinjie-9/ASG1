@@ -117,7 +117,7 @@ a
   border-radius: 50%;
   height: 70%;
   width: 35%;
-  margin-right: 50px;
+  margin-right: 90px;
   margin-top: 180px;
   float: left;
   display: inline;
@@ -237,7 +237,7 @@ a
 {
   padding: 100px 0 64px 0px ;
   font-family:'Times New Roman', Times, serif;
-  margin-bottom: 2500px;
+  margin-bottom: 2600px;
   display: flex;
 }
 
@@ -345,11 +345,65 @@ a
   text-align: center;
 }
 
-hr
+.body-3 hr
 {
   margin-top: 110px;
-  margin-right: 100px;
+  margin-right: 110px;
+  margin-bottom: 100px;
   color: rgb(255, 255, 255);
+}
+
+.CCA-main-container
+{
+  padding: 100px 0px 64px 0px ;
+  font-family:'Times New Roman', Times, serif;
+  margin-bottom: 2700px;
+  display: flex;
+}
+
+.body-4 hr
+{
+  margin-top: 110px;
+  margin-right: 600px;
+  margin-bottom: 100px;
+  color: rgb(255, 255, 255);
+}
+
+.body-4
+{
+  flex-direction: row;
+  padding-left : 150px;
+  padding-bottom: 70px;
+  margin-top: -100px; 
+}
+
+.Hobby-main-container
+{
+  padding: 100px 0px 64px 0px ;
+  font-family:'Times New Roman', Times, serif;
+  margin-bottom: 700px;
+  display: flex;
+}
+
+
+.body-5
+{
+  flex-direction: row;
+  padding-left : 150px;
+  padding-bottom: 70px;
+  margin-top: -100px; 
+}
+
+
+
+.body-4 video
+{
+  margin-left: 650px;  
+  width: 620px; 
+  height: 450px;
+  margin-top: -500px;
+  position: relative;
+
 }
 
 .dir-container
@@ -362,6 +416,7 @@ hr
   margin-top: -200px;
   padding-left: 20px;
 }
+
 .dir-next-btn
 {
   width: 8%;
@@ -535,12 +590,243 @@ hr
   transition: 0.3s ease-out;
 }
 
-@media screen and (max-width:576px) {
-  .split {
-    flex:1 100%;
-    flex-basis: 100%;
-    flex-grow: inherit;
+.body-4 h1
+{
+  font-size: 100px;
+  color: rgb(84, 193, 202);
+  text-align: center;
+  margin-top: 150px;
+  background-color:#003049;
+  margin-bottom: 30px;
+  margin-right: 620px;
+}
+
+.body-4 p
+{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  margin-top: 30px;
+  margin-right: 700px;
+  margin-bottom: 30px;
+}
+
+.body-5 h1
+{
+  font-size: 100px;
+  color: rgb(84, 193, 202);
+  text-align: center;
+  margin-top: 150px;
+  background-color:#003049;
+  margin-bottom: 30px;
+  margin-right: 620px;
+}
+
+.body-5 p
+{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  margin-top: 30px;
+  margin-right: 600px;
+  margin-bottom: 30px;
+}
+
+.slider-1 {
+  width: 600px;
+  height: 380px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+  margin-right: 900px;
+  
+}
+
+.slider-2 {
+  width: 600px;
+  height: 380px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 350px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+  margin-right: 950px; 
+}
+
+.slider-3 {
+  width: 600px;
+  height: 380px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 300px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+  margin-right: 950px; 
+}
+
+.image-container {
+  width: 2400px;
+  background-color: pink;
+  height: 400px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+  
+  
+}
+.slide {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  float: left;
+  width: 600px;
+  height: 380px;
+}
+
+
+
+#slide-1:target ~ .image-container {
+  left: 0px;
+}
+#slide-2:target ~ .image-container {
+  left: -600px;
+}
+#slide-3:target ~ .image-container {
+  left: -1200px;
+}
+
+#slide-4:target ~ .image-container {
+  left: 0px;
+}
+#slide-5:target ~ .image-container {
+  left: -600px;
+}
+#slide-6:target ~ .image-container {
+  left: -1200px;
+}
+
+#slide-7:target ~ .image-container {
+  left: 0px;
+}
+#slide-8:target ~ .image-container {
+  left: -500px;
+}
+#slide-9:target ~ .image-container {
+  left: -1000px;
+}
+
+#slide-10:target ~ .image-container {
+  left: 0px;
+}
+#slide-11:target ~ .image-container {
+  left: -600px;
+}
+#slide-12:target ~ .image-container {
+  left: -1200px;
+}
+
+#slide-13:target ~ .image-container {
+  left: -1800px;
+}
+.CCA-buttons-1 {
+  position: relative;
+  top: -20px;
+  margin-left: 300px;
+}
+
+.CCA-buttons-1 a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: rgb(0, 234, 255);
+}
+
+.CCA-buttons-1 a:hover{
+  background-color: aliceblue;
+  transition: 0.4s ease-out;
+}
+
+.CCA-buttons-2 {
+  position: relative;
+  top: -20px;
+  margin-left: 630px;
+}
+
+.CCA-buttons-2 a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: rgb(0, 234, 255);
+}
+
+.CCA-buttons-2 a:hover{
+  background-color: aliceblue;
+  transition: 0.4s ease-out;
+}
+
+.CCA-buttons-3 {
+  position: relative;
+  top: -20px;
+  margin-left: 570px;
+}
+
+.CCA-buttons-3 a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: rgb(0, 234, 255);
+}
+
+.CCA-buttons-3 a:hover{
+  background-color: aliceblue;
+  transition: 0.4s ease-out;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .media 
+  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1900px;
+    max-width: 100%;
   }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .media {display: flex}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .media {display: flex}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .media 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+} 
+
+
 
   

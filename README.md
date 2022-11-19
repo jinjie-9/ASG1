@@ -51,3 +51,30 @@ Things to include:
 - A form
 - A submit button 
 
+
+Mobile WireFrame:
+
+![Alt text](../../../../../../Pictures/Screenshots/Homepage%20%E2%80%93%201.jpg)
+
+![Alt text](../../../../../../Pictures/Screenshots/Education%20%E2%80%93%201.jpg)
+
+
+![Alt text](../../../../../../Pictures/Screenshots/CCA%20%E2%80%93%201.jpg)
+
+![Alt text](../../../../../../Pictures/Screenshots/Hobbies.jpg)
+
+![Alt text](../../../../../../Pictures/Screenshots/Contact%20Me%20%E2%80%93%201.jpg)
+
+Laptop WireFrame:
+
+![Alt text](../../../../../../Pictures/Screenshots/Homepage.jpg)
+
+![Alt text](../../../../../../Pictures/Screenshots/Education%20%E2%80%93%201.jpg)
+
+
+![Alt text](../../../../../../Pictures/Screenshots/CCA%20%E2%80%93%201.jpg)
+
+![Alt text](../../../../../../Pictures/Screenshots/Hobbies.jpg)
+
+![Alt text](../../../../../../Pictures/Screenshots/Contact%20Me%20%E2%80%93%201.jpg)
+
