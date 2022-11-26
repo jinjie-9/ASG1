@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" type="text/CSS" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Images/Homepage_logo.png" type="Images">
+    <script src="https://kit.fontawesome.com/61a6ca8d1a.js" crossorigin="anonymous"></script>
+</head>     
+<body>
+    <!--Navigation Bar-->
+    <a id="top"></a>
+    <div class="navbar-2">
+            <ul >
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li>
+                    <a href="Products.html">Products</a> 
+                    <div class="dropdown_box">
+                        <ul>
+                            <li><a id = "#camerabody" href="Products.html#camerabody">Camera Body</a></li>
+                            <li><a id = "#lens" href="Products.html#lens">Lens</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <div id="logo-2"><a href="Homepage.html"><img src="Images/Homepage_logo.png" alt="JJ Logo"></a></div>
+                
+                <li>
+                    <a href="Gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="Checkout.html">Checkout</a>
+                </li>
+            </ul>        
+    </div>  
+    <div class="checkout-main-container">
+        <form method="post" action="mailto: s10220867@connect.np.edu.sg" enctype="text/plain" class=form>
+            <h1>Checkout</h1>
+            <hr>
+            <p>Make Your Order Here. Each account is only allow to order one quantity for each product</p>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text"id="name" name="name">
+            </div>
+            <div>
+                <label for="Phone Number">Phone<br>Number:</label>
+                <input type="tel"id="Phone Number" name="Phone Number">
+            </div>
+            
+            <div>
+                <label for="DSLR">DSLR Model: </label>
+                <select name="amount" >
+                    <option value="none">Select Model</option>
+                    <option value="DSLR 200D II (EF-S 18-55mm f/4-5.6 IS STM)">DSLR 200D II (EF-S 18-55mm f/4-5.6 IS STM)</option>
+                    <option value="DSLR 90D (Body Only) ">DSLR 90D (Body Only) </option>
+                    <option value="Both">DSLR 200D II  & DSLR 90D </option>
+                </select>
+            </div>
+    
+            <div>
+                <!--dropbox for Places-->
+                <label for="Lens">Lens:</label>
+                <select name="Lens">
+                    <option value="none">Select Lens</option>
+                    <option value="Lens 24-70mm f/2.8L II USM">Lens 24-70mm f/2.8L II USM</option>
+                    <option value="Lens 16-35mm f/2.8L III USM "> Lens 16-35mm f/2.8L III USM </option>
+                    <option value="Both "> Lens 16-35mm & Lens 24-70mm (f/2.8L III USM) </option>
+                </select>
+            </div>
+            <div>
+                <label for="name">Email:</label>
+                <input type="text"id="Email" name="Email">
+            </div>    
+            <div class="checkout-submit">
+                <input type="submit" value="Submit Feedback">
+                <input type="reset" value="Clear Form">
+            </div>
+        </form>
+    </div>
+
+    <div class="dir-container">
+               
+        <a href="Products.html">
+            <button class="dir-back-btn-2"><i class="fa fa-angle-double-left"></i> Previous page</button>
+        </a>    
+        <a href="#top">
+            <button class="dir-top-btn-2"><i class="fa fa-angle-double-up"></i></button>
+        </a>
+    </div>
+    <!--Footer-->
+    <div class="footer-container-2">
+        <div class="footer-4">
+            
+                <div class="footer-heading footer-1">
+                    <h3>About Me</h3>
+                    <a href="Homepage.html">Homepage</a>
+                    <a href="AboutUs.html">About Us</a>
+                    <a href="Products.html">Products</a>
+                    <a href="Gallery.html">Gallery</a>
+                    <a href="Checkout.html">Checkout</a>
+                </div>
+                <div class="footer-heading footer-2">
+                    <h3>Social Media</h3>
+                    <div class="social">
+                        <a href="https://www.facebook.com/jordan.li.75641/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/jin_jie_9/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jin-jie-li-6a6448238/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-heading footer-3">
+                    <h3>Contact Us</h3>
+                    <a><i class="fas fa-map-marker-alt"></i>    535 Clementi Road, Singapore 599489</a>
+                    <a><i class="fas fa-phone"></i> +65 92305621</a>
+                    <a><i class="fas fa-envelope"></i> s10220867@connect.np.edu.sg</a> 
+                </div>    
+                <div class="footer-email-form">
+                    <h3>Sign Up</h3>
+                    <input type="email" placeholder="Enter your email">
+                    <br>
+                    <input type="submit" value="Sign Up" id="footer-email-btn">   
+                </div>
+        </div>
+    </div>    
+    <!--End of footer-->
+</body>
+</html>

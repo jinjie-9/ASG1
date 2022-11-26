@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobbies</title>
+    <title>Feedback</title>
     <link rel="stylesheet" type="text/CSS" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="Images/Logo 2.jpg" type="Images">
@@ -23,7 +23,7 @@
                     <ul>
                         <li><a id = "#poly" href="Education.html#poly">Tertiary</a></li>
                         <li><a id = "#secondaryschool" href="Education.html#secondaryschool">Secondary</a></li>
-                        <li><a id = "#primaryschool"  href="Education.html#primaryschool">Primary</a></li>  
+                        <li><a id = "#primaryschool"  href="Education.html#primaryschool">Primary</a></li> 
                     </ul>
                 </div>
             </li>
@@ -44,60 +44,80 @@
             <li>
                 <a href="Feedback.html">Feedback</a>
             </li>
-        </ul>        
+        </ul>
     </div>
     <!--End of Navigation Bar-->
+    <hr>
     <!--Main Body-->
-    <div class="Hobby-main-container">
-        <div class="main">
-            <div class="body-5">
-
-                <h1>Photography</h1>
-                <br><br>
-                <div class="slider-3">
-                    <span id="slide-10"></span>
-                    <span id="slide-11"></span>
-                    <span id="slide-12"></span>
-                    <span id="slide-13"></span>
-                    <div class="image-container">
-                        <img src="Images/IMG_E2364.jpg" class="slide">
-                        <img src="Images/DVFV6862.jpg" class="slide">
-                        <img src="Images/56343E67-5AC3-4FCC-9DF6-517BF05BE005.JPG" class="slide">
-                        <img src="Images/IMG_9639.JPG" class="slide">
-
-                    </div>
-                </div>
-                <br><br>
-
-                <div class="CCA-buttons-3">
-                    <a href="#slide-10"></a>
-                    <a href="#slide-11"></a>
-                    <a href="#slide-12"></a>
-                    <a href="#slide-13"></a>
-
-                </div>
-                <p>Another hobbies of mine is phtography. This is because I like to record down the beautiful moment in my life. This will remind myself that life is extremely precious and I must not take any things for granted.</p>
-                <p id = "homepage-info">Click the button to find out more about my personal company :)</p>
-
-                <a href="Signin.HTML" target="_blank"> 
-                    <button class = "photography-homepage"><i class="fa fa-angle-double-right"></i> My Company <i class="fa fa-angle-double-left"></i></button>
-                </a> 
+    <div class="feedback-main-container">
+        <form method="post" action="mailto: s10220867@connect.np.edu.sg" enctype="text/plain" class="form">
+            <br>
+            <h1>Feedback</h1>
+            <hr>
+            <p>Please Rate your experience with: 1 -> very bad , 5 -> very good</p>
+            <div>
+                    <!--Radio buttons-->
+                    
+                <label>Design:</label>
+                <label for="5">5 <input type="radio" name=" Design" id="5" value="5"></label>
                 
+                <label for="4">4<input type="radio" name="Design" id="4" value="4"></label>
+                
+                <label for="3">3<input type="radio" name=" Design" id="3" value="3"></label>
+                
+                <label for="2">2<input type="radio" name="Design" id="2" value="2"></label>
+                
+                <label for="1">1<input type="radio" name="Design" id="1" value="1"></label>
                 
             </div>
-            
-             
-        </div>
+    
+            <div>
+                <label>Navigation:</label>
+                <label for="5">5<input type="radio" name="Navigation" id="5" value="5"></label>
+                
+                <label for="4">4<input type="radio" name="Navigation" id="4" value="4"></label>
+                
+                <label for="3">3<input type="radio" name="Navigation" id="3" value="3"></label>
+                
+                <label for="2">2<input type="radio" name="Navigation" id="2" value="2"></label>
+                
+                <label for="1">1<input type="radio" name="Navigation" id="1" value="1"></label>
+                
+            </div>
+
+            <div>
+                <label>Overall:</label>
+                <label for="5">5<input type="radio" name="Overall" id="5" value="5"></label>
+                
+                <label for="4">4<input type="radio" name="Overall" id="4" value="4"></label>
+                
+                <label for="3">3<input type="radio" name="Overall" id="3" value="3"></label>
+                
+                <label for="2">2<input type="radio" name="Overall" id="2" value="2"></label>
+                
+                <label for="1">1<input type="radio" name="Overall" id="1" value="1"></label>
+                
+            </div>
+    
+            <div>
+                <label for="comment">Comment:</label><br>
+                <textarea name="comment" id="comment" placeholder="Please enter your comment"
+                rows="10"cols="60"></textarea>
+            </div>
+        
+            <div class="submit">
+                <input type="submit" value="Submit Feedback">
+                <input type="reset" value="Clear Form">
+            </div>
+        </form>
     </div>
+    
 
     <div class="dir-container">
         
-        <a href="Feedback.html">
-            <button class="dir-next-btn">Next page <i class="fa fa-angle-double-right"></i></button>
-        </a>    
-        <a href="CCA.html">
+        <a href="Education.html"> 
             <button class="dir-back-btn"><i class="fa fa-angle-double-left"></i> Previous page</button>
-        </a>    
+        </a>
         <a href="#top">
             <button class="dir-top-btn"><i class="fa fa-angle-double-up"></i></button>
         </a>
@@ -114,7 +134,6 @@
                 <a href="CCA.html">CCA</a>
                 <a href="Hobby.html">Hobbies</a>
                 <a href="Feedback.html">Feedback</a>
-
             </div>
             <div class="footer-heading footer-2">
                 <h3>Social Media</h3>
