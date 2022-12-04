@@ -155,4 +155,4 @@ Gallery: ![Hobby](Images/Mobile_Gallery.png)
 
 Checkout: ![Checkout](Images/Mobile_Checkout.png)
 
-WalkThrough Video: ![Walk Through](Images/Untitled%20video%20-%20Made%20with%20Clipchamp.mp4)
+WalkThrough Video: [Walk Through](Images/Untitled%20video%20-%20Made%20with%20Clipchamp.mp4)
